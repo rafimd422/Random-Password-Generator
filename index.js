@@ -5,7 +5,9 @@ theBody.style.color = "white";
 theBody.style.fontFamily = 'Roboto','Poppins, sans-serif';
 const headingOne = document.querySelector("h1");
 headingOne.style.fontWeight = '500';
-
+const spanElement = document.querySelector("span");
+spanElement.style.fontSize = "2rem";
+spanElement.style.color = "#019f55" ;
 
 
 // Started password generating process from here...
