@@ -10,9 +10,8 @@ h1 {
     font-size: 2.4rem;  
 }
 span {
-    color: #019f55;
     border-bottom:3px solid green;
-    padding-bottom: 6px;
+    padding-bottom: 5px;
 }
 .display {
     width: 100%;
@@ -75,6 +74,19 @@ button:active {
     }
     span {
         padding-bottom: 4px;
-        font-size: 2.2rem;
     }
   }
+  @media only screen and (max-width: 390px) {
+    main { margin-left:0rem ;
+}
+.display {
+    padding: 12px;
+}
+.display i {
+    color: rgb(199, 37, 37);
+}
+span {
+    border-bottom:none;
+
+}
+}
