@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;800&family=Raleway:ital,wght@1,200&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+<body>
+    <main>
+<h1>Generate a<br> <span>Random Passeword</span> </h1>
+<div class="display">
+    <input type="text" name="Password" id="pass" placeholder="Password">
+    <abbr title="Click here to copy"><i onclick="selectAndCopy()" class="fa-solid fa-copy fa-xl"></i></abbr>
+</div>
+<button type="submit" onclick="getPassword()">Generate Password</button>
+    </main>
+    <script src="/index.js"></script>
+</body>
+</html>
